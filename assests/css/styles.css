@@ -1,0 +1,95 @@
+/* Reset CSS para asegurar consistencia entre navegadores */
+* {
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+  }
+  
+  header {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.6; /* Define la altura de línea */
+    color: black; /* Color del texto */
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.6; /* Define la altura de línea */
+    color: lightslategray; /* Color del texto */
+  }
+  
+  /* Estilo del navbar */
+  #navbar {
+    background-color: green; /* Color de fondo del navbar */
+    padding: 1rem 0; /* Relleno superior e inferior */
+    text-align: center; /* Centra el texto */
+  }
+  
+  .navbar-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    display: flex; /* Usa flexbox para la disposición */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 2rem; /* Espacio entre los elementos */
+  }
+  
+  .navbar-list a {
+    color: whitesmoke; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+  }
+  
+  .navbar-list a:hover {
+    text-decoration: underline; /* Subraya el texto al pasar el ratón */
+  }
+  
+  /* Sección de Inicio */
+  .section-header {
+    display: flex; /* Usa flexbox para la disposición */
+    align-items: center; /* Alinea los elementos verticalmente */
+    justify-content: space-between; /* Espacia los elementos */
+    padding: 2rem; /* Relleno */
+    background-color: whitesmoke; /* Color de fondo */
+  }
+  
+  .header-content {
+    max-width: 800px; /* Ancho máximo del contenido */
+  }
+  
+  .header-image img {
+    max-width: 600px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática */
+
+  }
+  
+  /* Estilo de la sección de servicios */
+  .section-servicios {
+    padding: 2rem; /* Relleno */
+    text-align: center; /* Centra el texto */
+    background-color: white; /* Color de fondo */
+  }
+  
+  /* Estilo lista servicios medicos */
+  .ul-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    justify-content: center; /* Centra los elementos*/
+    gap: 2rem; /* Espacio entre los elementos */
+  }
+ 
+  /* Estilo de la sección de servicios */
+ .section-testimonio {
+    padding: 2rem; /* Relleno */
+    text-align: left; /* Centra el texto */
+    background-color: white; /* Color de fondo */
+    color: black;
+  }
+
+/* Estilo de tipo */
+  .tipo {
+    padding: 1rem; /* Relleno */
+    text-align: center; /* Centra el texto */
+    background-color: white; /* Color de fondo */
+    color: black;
+  }
+  

@@ -1,0 +1,44 @@
+[
+	{
+		"nombre": "Dr. Juan Pérez",
+		"imagen": "assests/img/juan.png",
+		"especialidad": "Cardiología",
+		"experiencia": 20,
+		"disponibilidad": {
+			"dias": [
+				"Lunes",
+				"Miércoles",
+				"Viernes"
+			],
+			"horarios": [
+				"9:00 AM - 12:00 PM",
+				"2:00 PM - 5:00 PM"
+			]
+		},
+		"contacto": {
+			"telefono": "9876543210",
+			"email": "juan.perez@losgladiolos.com"
+		}
+	},
+	{
+		"nombre": "Dra. María González",
+		"imagen": "assests/img/maria.png",
+		"especialidad": "Pediatría",
+		"experiencia": 15,
+		"disponibilidad": "Lunes - Viernes de 8 a 17hs"
+	},
+	{
+		"nombre": "Dr. Pedro Reyes",
+		"imagen": "assests/img/pedro.png",
+		"especialidad": "Oftalmología",
+		"experiencia": 10,
+		"disponibilidad": "Lunes - Viernes de 10 a 19hs"
+	},
+	{
+		"nombre": "Dra. Fabiana Pradenas",
+		"imagen": "assests/img/fabiana.png",
+		"especialidad": "Medico Cirujano",
+		"experiencia": 12,
+		"disponibilidad": "Martes - Sábado de 9 a 18hs"
+	}
+]
